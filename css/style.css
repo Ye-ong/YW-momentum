@@ -1,0 +1,54 @@
+.hidden {
+    display: none ;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#clock {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    transform: translateY(-50%);
+    color: black;
+    text-align: center;
+}
+
+#quote {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-50%);
+    color: black;
+    text-align: center;
+}
+
+#weather {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    transform: translateY(-50%);
+    color: black;
+    text-align: center;
+}
+
+ #todo-form, #todo-list {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    margin-right: 50px;
+    color: black;
+    text-align: left;
+}
+
+#login-form, #greeting{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    color: black;
+    text-align: center;
+
+}
